@@ -38,7 +38,7 @@ A fentiekből adódóan bárki beszerezheti a Mastodont és üzemeltethet saját
 
 Egy adott Mastodon-instancián belül a felhasználónevek ‚@felhasználónév’ formában jelennek meg (csakúgy, mint a Twitteren). A más szerveren regisztrált felhasználókat a ‚@felhasználónév@szervernév.tld’ formában tudjuk keresni és követni - tehát a ‚@gargron’ nevű felhasználót a ‚mastodon.social’ szerveren más instanciákról a ‚@gargron@mastodon.social’ formában érhetjük el.
 
-A más szerver felhasználóinak üzenetei a „*federáció*” révén jelennek meg egy adott szerveren - például ha ‚user1@mastodon1’ felhasználó követi ‚user2@gnusocial2’ felhasználót, abban az esetben ‚user2@gnusocial2’ üzenetei megjelennek ‚user1@mastodon1’ *Kezdőlapján* (Home Feed) és a ‚mastodon1’ szerver *Publikus időfolyamában* (Public Timeline). A Mastodon-szerverek adminisztrátorainak van erre a folyamatra némi ráhatásuk és letilthatják bizonyos felhasználók üzeneteinek megjelenését a Publikus időfolyamról. Hasonlóképp a felhasználók adatvédelmi beállításai is kihatnak a federációra - ezzel kapcsolatban lásd a [Tülk adatvédelem](User-guide_HUN.md#tülk-adatvédelem) fejezetet.
+A más szerver felhasználóinak üzenetei a „*federáció*” révén jelennek meg egy adott szerveren - például ha `user1@mastodon1` felhasználó követi `user2@gnusocial2` felhasználót, abban az esetben `user2@gnusocial2` üzenetei megjelennek `user1@mastodon1` *Kezdőlapján* (Home Feed) és a `mastodon1` szerver *Publikus időfolyamában* (Public Timeline). A Mastodon-szerverek adminisztrátorainak van erre a folyamatra némi ráhatásuk és letilthatják bizonyos felhasználók üzeneteinek megjelenését a Publikus időfolyamról. Hasonlóképp a felhasználók adatvédelmi beállításai is kihatnak a federációra - ezzel kapcsolatban lásd a [Tülk adatvédelem](User-guide_HUN.md#tülk-adatvédelem) fejezetet.
 
 ## Első lépések
 
@@ -103,9 +103,9 @@ Amennyiben az illető neve mellett lakat ikont ![Padlock icon](screenshots/locke
 
 Ha már követsz egy felhasználót, akkor a profiloldalán látható Követés ikon kékre változik ![Following icon](screenshots/following-icon.png); ennek újbóli megnyomásával hagyhatod abba a felhasználó követését. 
 
-Ha ismered egy adott felhasználó felhasználónevét, megnyithatod a profilját úgy is, hogy begépeled azt a bal oldali oszlopban található [keresőmezőbe](User-guide_HUN.md#keresés). Ez más szervereken regisztrált felhasználók esetében is működik, ám annak függvényében, hogy az adott szerver federál-e a tiéddel, lehet, hogy a teljes – szervernévvel ellátott – felhasználónevet (pl. ‚gargron@mastodon.social’) be kell írnod, mielőtt a kereső megjeleníti az adott felhasználót javaslatként.
+Ha ismered egy adott felhasználó felhasználónevét, megnyithatod a profilját úgy is, hogy begépeled azt a bal oldali oszlopban található [keresőmezőbe](User-guide_HUN.md#keresés). Ez más szervereken regisztrált felhasználók esetében is működik, ám annak függvényében, hogy az adott szerver federál-e a tiéddel, lehet, hogy a teljes – szervernévvel ellátott – felhasználónevet (pl. `gargron@mastodon.social`) be kell írnod, mielőtt a kereső megjeleníti az adott felhasználót javaslatként.
 
-Amennyiben a követni kívánt felhasználó profilja már meg van nyitva egy másik böngészőfülön, a legtöbb OStatus-alapú rendszer megjelenít egy „Követés” vagy „Feliratkozás” (Follow, ill. Subscribe) gombot a profiloldalon. Ezt megnyomva a rendszer kérni fogja a **te** teljes (szervernévvel ellátott) felhasználónevedet, **amellyel** követni kívánod az adott felhasználót (például ha a mastodon.social szerveren vagy regisztrálva, ‚felhasználóneved@mastodon.social’ formában kell megadnod a fehasználóneved).
+Amennyiben a követni kívánt felhasználó profilja már meg van nyitva egy másik böngészőfülön, a legtöbb OStatus-alapú rendszer megjelenít egy „Követés” vagy „Feliratkozás” (Follow, ill. Subscribe) gombot a profiloldalon. Ezt megnyomva a rendszer kérni fogja a **te** teljes (szervernévvel ellátott) felhasználónevedet, **amellyel** követni kívánod az adott felhasználót (például ha a mastodon.social szerveren vagy regisztrálva, `felhasználóneved@mastodon.social` formában kell megadnod a fehasználóneved).
 
 #### Értesítések
 
